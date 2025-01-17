@@ -1,0 +1,47 @@
+body{
+    background-color: #16283b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.space{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    margin-top: 40px;
+}
+h1{
+    color: white;
+}
+h{
+    color: white;
+    line-height: 1.5;
+}
+.moon, .earth{
+    margin: auto;
+}
+.unselected{
+    margin: auto;
+    opacity: 0.5;
+}
+.selected{
+    transform: scale(1.1); 
+    border-radius: 100%;
+    border: #fff 2px solid;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    margin-top: 40px;
+}
