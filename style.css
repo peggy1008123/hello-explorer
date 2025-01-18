@@ -45,3 +45,21 @@ a{
 .title2{
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1000px){
+    .content{
+        width: 90%;
+    }
+    .space{
+        flex-direction: column;
+        height: 500px;
+        margin-top: 60px;
+    }
+    .moon, .earth{
+        margin: 0;
+    }
+    .title2{
+        margin-top: 60px;
+    }
+    
+}
